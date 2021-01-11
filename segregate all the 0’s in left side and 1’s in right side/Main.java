@@ -1,0 +1,6 @@
+x = int(input())
+y = input()
+y = str(y).split()
+y = sorted(y)
+y = ''.join(i for i in y)
+print(y)
